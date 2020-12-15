@@ -16,4 +16,10 @@
 
         Return View()
     End Function
+
+    Function Meeting() As ActionResult
+        ViewData("Message") = "Your meeting page."
+
+        Return View()
+    End Function
 End Class
