@@ -22,4 +22,9 @@
 
         Return View()
     End Function
+    Function Map() As ActionResult
+        ViewData("Message") = "Here you can find your program map."
+
+        Return View()
+    End Function
 End Class
